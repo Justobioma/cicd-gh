@@ -1,13 +1,11 @@
 package com.example;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+public class App {
+    public static void main(String[] args) {
+        System.out.println(getGreeting());
+    }
 
-class AppTest {
-
-    @Test
-    void testOutputMessage() {
-        String expected = "Hello, CI/CD world!";
-        assertEquals(expected, App.getGreeting());
+    public static String getGreeting() {
+        return "Hello, I am testing the CI/CD pipeline with a unit test!";
     }
 }
