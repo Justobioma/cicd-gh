@@ -39,3 +39,6 @@ Steps include:
 - Checkout source code
 - Set up Java environment
 - Run ./gradlew build and ./gradlew test
+
+## Screenshot
+![Screenshot_15-7-2025_74631_github com](https://github.com/user-attachments/assets/8d03ed69-ffe9-4eea-9661-56f356bad326)
