@@ -1,4 +1,4 @@
-# GitHub Action CI/CD Java with Gradle
+# GitHub Actions CI/CD Java with Gradle
 
 A simple Java project using Gradle, built to demonstrate Continuous Integration (CI) and Continuous Delivery (CD) with GitHub Actions.
 
@@ -20,7 +20,7 @@ The app prints a simple greeting message, and the pipeline ensures every commit 
 - GitHub Actions
 
 ## 📦 Project Structure
-src/ ├── main/ │   └── java/ │       └── com/example/App.java ├── test/ │   └── java/ │       └── com/example/AppTest.java .github/ └── workflows/ └── gradle.yml
+src/ ├── main/ │   └── java/ │       └── com/example/App.java ├── test/ │   └── java/ │       └── com/example/AppTest.java .github/ └── workflows/ └── ci.yml
 
 
 ## ✅ Build & Test Locally
